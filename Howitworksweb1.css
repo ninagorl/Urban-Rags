@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+.body{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F7ECDF;
+}
+nav{
+    background:#688C4F;
+    height: 15vh;
+}
+.navbar{
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 20px;
+    background: #F7ECDF;
+    border-radius: 80px;
+    text-align: center; 
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px
+}
+.cream{
+    background: #F7ECDF;
+    height: 800px;
+}
+.banner{
+    height: 75vh;
+    background-image: url(semicircle.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 200px;
+    overflow: hidden;
+}
+.bannertext{
+    padding-top: 75px;
+    text-align: center;
+    color: #E94A12;
+    font-family: 'Yeseva One', cursive;
+    font-size: 150px;   
+}
+.right{
+    background-color: #F7ECDF;
+    align-content: center;
+    height: 550px;
+    overflow: hidden;
+}
+.righttext{ 
+    float: right;
+    text-align: right;
+}
+.righttext h5{
+    color: #E94A12;  
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    margin-right: 150px;
+    margin-top: 60px;
+}
+.righttext p{
+    color: #E94A12;  
+    font-family: forma-djr-micro, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.right img{
+    float: left;
+    height: 500px;
+    width: 550px;
+    margin-left: 150px;
+    border-radius: 50px;
+
+}
+.left{
+    background-color: #F7ECDF;
+    align-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.lefttext{
+    align-content: center;  
+}
+.lefttext h4{
+    text-align: left;
+    color: #E94A12;  
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    float: left;
+    margin-top: 220px;
+    margin-left: 150px;
+}
+.lefttext p{
+    position: absolute;
+    text-align: left;
+    color: #E94A12;
+    font-family: forma-djr-micro, sans-serif;
+    font-size: 20px;
+    margin-top: 375px;
+    line-height: 35px;
+    float: left;
+    margin-left: 150px;    
+}
+.lefttext img{
+    float: right;
+    margin-right: 150px;
+    height: 300px;
+    margin-top: 250px;
+    border-radius: 50px;
+}
+.right3{
+    background-color: #F7ECDF;
+    align-content: center;
+    height: 750px;
+    overflow: hidden;
+}
+.righttext3{ 
+    float: right;
+    text-align: right;
+}
+.righttext3 h5{
+    color: #E94A12;  
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    margin-top: 80px;
+    margin-right: 150px;
+}
+.righttext3 p{
+    color: #E94A12;  
+    font-family: forma-djr-micro, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.right3 img{
+    float: left;
+    height: 530px;
+    width: 500px;
+    margin-left: 150px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+.footer{
+    width: 100%;
+    padding: 40px;
+    background: #496037;
+}
+.footer div{
+    text-align: center;
+}
+.col-1{
+    flex-grow: 2;
+}
+.footer div h7{
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #F7ECDF;
+}
+.footer p{
+    font-family: forma-djr-micro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F7ECDF;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    color: #F7ECDF;
+}
